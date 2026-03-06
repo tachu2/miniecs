@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "miniecs-terraform-state"
-    key    = "terraform.tfstate"
-    region = var.region
+    bucket  = "miniecs-terraform-state"
+    key     = "terraform.tfstate"
+    region  = var.region
     encrypt = true
   }
 
